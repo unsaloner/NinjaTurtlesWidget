@@ -11,7 +11,45 @@
 		231C6A0E27EF819A00EB13D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C6A0D27EF819A00EB13D9 /* ContentView.swift */; };
 		231C6A1027EF819B00EB13D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 231C6A0F27EF819B00EB13D9 /* Assets.xcassets */; };
 		231C6A1327EF819B00EB13D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 231C6A1227EF819B00EB13D9 /* Preview Assets.xcassets */; };
+		231C6A2227EF825B00EB13D9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C6A2127EF825B00EB13D9 /* Model.swift */; };
+		231C6A2427EF856D00EB13D9 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C6A2327EF856D00EB13D9 /* ImageView.swift */; };
+		231C6A2627EF873800EB13D9 /* TurtleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C6A2527EF873800EB13D9 /* TurtleView.swift */; };
+		231C6A2F27EF8E0800EB13D9 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231C6A2E27EF8E0800EB13D9 /* WidgetKit.framework */; };
+		231C6A3127EF8E0800EB13D9 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231C6A3027EF8E0800EB13D9 /* SwiftUI.framework */; };
+		231C6A3427EF8E0800EB13D9 /* TurtlesWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C6A3327EF8E0800EB13D9 /* TurtlesWidget.swift */; };
+		231C6A3727EF8E0900EB13D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 231C6A3627EF8E0900EB13D9 /* Assets.xcassets */; };
+		231C6A3927EF8E0900EB13D9 /* TurtlesWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 231C6A3527EF8E0800EB13D9 /* TurtlesWidget.intentdefinition */; };
+		231C6A3A27EF8E0900EB13D9 /* TurtlesWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 231C6A3527EF8E0800EB13D9 /* TurtlesWidget.intentdefinition */; };
+		231C6A3D27EF8E0900EB13D9 /* TurtlesWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 231C6A2C27EF8E0800EB13D9 /* TurtlesWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		231C6A4227EF8E8000EB13D9 /* TurtleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C6A2527EF873800EB13D9 /* TurtleView.swift */; };
+		231C6A4327EF8E8800EB13D9 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C6A2327EF856D00EB13D9 /* ImageView.swift */; };
+		231C6A4427EF8E8B00EB13D9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C6A2127EF825B00EB13D9 /* Model.swift */; };
+		231C6A4527EF90BE00EB13D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 231C6A0F27EF819B00EB13D9 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		231C6A3B27EF8E0900EB13D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 231C6A0027EF819900EB13D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 231C6A2B27EF8E0800EB13D9;
+			remoteInfo = TurtlesWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		231C6A4127EF8E0900EB13D9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				231C6A3D27EF8E0900EB13D9 /* TurtlesWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		231C6A0827EF819A00EB13D9 /* NinjaTurtlesWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NinjaTurtlesWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +57,18 @@
 		231C6A0D27EF819A00EB13D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		231C6A0F27EF819B00EB13D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		231C6A1227EF819B00EB13D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		231C6A2127EF825B00EB13D9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		231C6A2327EF856D00EB13D9 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		231C6A2527EF873800EB13D9 /* TurtleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtleView.swift; sourceTree = "<group>"; };
+		231C6A2727EF8BC100EB13D9 /* NinjaTurtlesWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NinjaTurtlesWidget.entitlements; sourceTree = "<group>"; };
+		231C6A2C27EF8E0800EB13D9 /* TurtlesWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TurtlesWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		231C6A2E27EF8E0800EB13D9 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		231C6A3027EF8E0800EB13D9 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		231C6A3327EF8E0800EB13D9 /* TurtlesWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtlesWidget.swift; sourceTree = "<group>"; };
+		231C6A3527EF8E0800EB13D9 /* TurtlesWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = TurtlesWidget.intentdefinition; sourceTree = "<group>"; };
+		231C6A3627EF8E0900EB13D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		231C6A3827EF8E0900EB13D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		231C6A4627EF90DE00EB13D9 /* TurtlesWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TurtlesWidgetExtension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,13 +79,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		231C6A2927EF8E0800EB13D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231C6A3127EF8E0800EB13D9 /* SwiftUI.framework in Frameworks */,
+				231C6A2F27EF8E0800EB13D9 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		231C69FF27EF819900EB13D9 = {
 			isa = PBXGroup;
 			children = (
+				231C6A4627EF90DE00EB13D9 /* TurtlesWidgetExtension.entitlements */,
 				231C6A0A27EF819A00EB13D9 /* NinjaTurtlesWidget */,
+				231C6A3227EF8E0800EB13D9 /* TurtlesWidget */,
+				231C6A2D27EF8E0800EB13D9 /* Frameworks */,
 				231C6A0927EF819A00EB13D9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				231C6A0827EF819A00EB13D9 /* NinjaTurtlesWidget.app */,
+				231C6A2C27EF8E0800EB13D9 /* TurtlesWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,10 +114,14 @@
 		231C6A0A27EF819A00EB13D9 /* NinjaTurtlesWidget */ = {
 			isa = PBXGroup;
 			children = (
+				231C6A2727EF8BC100EB13D9 /* NinjaTurtlesWidget.entitlements */,
 				231C6A0B27EF819A00EB13D9 /* NinjaTurtlesWidgetApp.swift */,
 				231C6A0D27EF819A00EB13D9 /* ContentView.swift */,
 				231C6A0F27EF819B00EB13D9 /* Assets.xcassets */,
 				231C6A1127EF819B00EB13D9 /* Preview Content */,
+				231C6A2127EF825B00EB13D9 /* Model.swift */,
+				231C6A2327EF856D00EB13D9 /* ImageView.swift */,
+				231C6A2527EF873800EB13D9 /* TurtleView.swift */,
 			);
 			path = NinjaTurtlesWidget;
 			sourceTree = "<group>";
@@ -67,6 +134,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		231C6A2D27EF8E0800EB13D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				231C6A2E27EF8E0800EB13D9 /* WidgetKit.framework */,
+				231C6A3027EF8E0800EB13D9 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		231C6A3227EF8E0800EB13D9 /* TurtlesWidget */ = {
+			isa = PBXGroup;
+			children = (
+				231C6A3327EF8E0800EB13D9 /* TurtlesWidget.swift */,
+				231C6A3527EF8E0800EB13D9 /* TurtlesWidget.intentdefinition */,
+				231C6A3627EF8E0900EB13D9 /* Assets.xcassets */,
+				231C6A3827EF8E0900EB13D9 /* Info.plist */,
+			);
+			path = TurtlesWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +164,34 @@
 				231C6A0427EF819A00EB13D9 /* Sources */,
 				231C6A0527EF819A00EB13D9 /* Frameworks */,
 				231C6A0627EF819A00EB13D9 /* Resources */,
+				231C6A4127EF8E0900EB13D9 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				231C6A3C27EF8E0900EB13D9 /* PBXTargetDependency */,
 			);
 			name = NinjaTurtlesWidget;
 			productName = NinjaTurtlesWidget;
 			productReference = 231C6A0827EF819A00EB13D9 /* NinjaTurtlesWidget.app */;
 			productType = "com.apple.product-type.application";
+		};
+		231C6A2B27EF8E0800EB13D9 /* TurtlesWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231C6A3E27EF8E0900EB13D9 /* Build configuration list for PBXNativeTarget "TurtlesWidgetExtension" */;
+			buildPhases = (
+				231C6A2827EF8E0800EB13D9 /* Sources */,
+				231C6A2927EF8E0800EB13D9 /* Frameworks */,
+				231C6A2A27EF8E0800EB13D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TurtlesWidgetExtension;
+			productName = TurtlesWidgetExtension;
+			productReference = 231C6A2C27EF8E0800EB13D9 /* TurtlesWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +204,9 @@
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					231C6A0727EF819A00EB13D9 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					231C6A2B27EF8E0800EB13D9 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
@@ -116,6 +225,7 @@
 			projectRoot = "";
 			targets = (
 				231C6A0727EF819A00EB13D9 /* NinjaTurtlesWidget */,
+				231C6A2B27EF8E0800EB13D9 /* TurtlesWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +240,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		231C6A2A27EF8E0800EB13D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231C6A4527EF90BE00EB13D9 /* Assets.xcassets in Resources */,
+				231C6A3727EF8E0900EB13D9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +256,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				231C6A2427EF856D00EB13D9 /* ImageView.swift in Sources */,
+				231C6A2227EF825B00EB13D9 /* Model.swift in Sources */,
 				231C6A0E27EF819A00EB13D9 /* ContentView.swift in Sources */,
 				231C6A0C27EF819A00EB13D9 /* NinjaTurtlesWidgetApp.swift in Sources */,
+				231C6A3A27EF8E0900EB13D9 /* TurtlesWidget.intentdefinition in Sources */,
+				231C6A2627EF873800EB13D9 /* TurtleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231C6A2827EF8E0800EB13D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231C6A4427EF8E8B00EB13D9 /* Model.swift in Sources */,
+				231C6A4327EF8E8800EB13D9 /* ImageView.swift in Sources */,
+				231C6A3927EF8E0900EB13D9 /* TurtlesWidget.intentdefinition in Sources */,
+				231C6A3427EF8E0800EB13D9 /* TurtlesWidget.swift in Sources */,
+				231C6A4227EF8E8000EB13D9 /* TurtleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		231C6A3C27EF8E0900EB13D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 231C6A2B27EF8E0800EB13D9 /* TurtlesWidgetExtension */;
+			targetProxy = 231C6A3B27EF8E0900EB13D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		231C6A1427EF819B00EB13D9 /* Debug */ = {
@@ -264,8 +407,10 @@
 		231C6A1727EF819B00EB13D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NinjaTurtlesWidget/NinjaTurtlesWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NinjaTurtlesWidget/Preview Content\"";
@@ -293,8 +438,10 @@
 		231C6A1827EF819B00EB13D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NinjaTurtlesWidget/NinjaTurtlesWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NinjaTurtlesWidget/Preview Content\"";
@@ -319,6 +466,62 @@
 			};
 			name = Release;
 		};
+		231C6A3F27EF8E0900EB13D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TurtlesWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98A2KZ4H43;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TurtlesWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TurtlesWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unsaloner.NinjaTurtlesWidget.TurtlesWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		231C6A4027EF8E0900EB13D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TurtlesWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98A2KZ4H43;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TurtlesWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TurtlesWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unsaloner.NinjaTurtlesWidget.TurtlesWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -336,6 +539,15 @@
 			buildConfigurations = (
 				231C6A1727EF819B00EB13D9 /* Debug */,
 				231C6A1827EF819B00EB13D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		231C6A3E27EF8E0900EB13D9 /* Build configuration list for PBXNativeTarget "TurtlesWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231C6A3F27EF8E0900EB13D9 /* Debug */,
+				231C6A4027EF8E0900EB13D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
